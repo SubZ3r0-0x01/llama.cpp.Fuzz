@@ -25,8 +25,8 @@ This project provides a simple script to set up and run fuzzing on the `llama.cp
     Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/yourrepo.git
-    cd yourrepo
+    git clone https://github.com/SubZ3r0-0x01/llama.cpp.Fuzz.git
+    cd llama.cpp.Fuzz
     ```
 
 ## Usage
@@ -35,21 +35,21 @@ This project provides a simple script to set up and run fuzzing on the `llama.cp
     In the project directory, download the `fuzzing_setup.sh` script:
 
     ```bash
-    wget https://github.com/yourusername/yourrepo/raw/main/fuzzing_setup.sh
+    wget https://github.com/SubZ3r0-0x01/llama.cpp.Fuzz/raw/main/llama.sh
     ```
 
 2. **Make the script executable**:
     Give execute permissions to the script:
 
     ```bash
-    chmod +x fuzzing_setup.sh
+    chmod +x llama.sh
     ```
 
 3. **Run the setup script**:
     Execute the script to set up the fuzzing environment. The script will walk you through the process, including selecting a model file for fuzzing.
 
     ```bash
-    ./fuzzing_setup.sh
+    ./llama.sh
     ```
 
     The script will:
