@@ -32,7 +32,7 @@ This project provides a simple script to set up and run fuzzing on the `llama.cp
 ## Usage
 
 1. **Download the setup script**:
-    In the project directory, download the `fuzzing_setup.sh` script:
+    In the project directory, download the `llama.sh` script:
 
     ```bash
     wget https://github.com/SubZ3r0-0x01/llama.cpp.Fuzz/raw/main/llama.sh
